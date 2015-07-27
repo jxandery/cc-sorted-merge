@@ -9,11 +9,11 @@ class Merge
     if both_empty?(array1, array2)
       sorted_array
     elsif array1.empty?
-      array1.each do |num|
+      array2.each do |num|
         sorted_array << num
       end
     elsif array2.empty?
-      array2.each do |num|
+      array1.each do |num|
         sorted_array << num
       end
     elsif array1[0] > array2[0]
