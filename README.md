@@ -14,6 +14,7 @@ def merge_sort(array)
   right = merge_sort(array[mid, array.length-mid])
   merge_sorted_arrays left, right
 end
+
 After returning from merge_sort, the two havles are sorted (recursion :) This means that when they come into merge_sorted_arrays, both of the arrays are already sorted.
 
 Problem
