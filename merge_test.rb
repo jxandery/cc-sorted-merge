@@ -20,7 +20,6 @@ class MergeTest < MiniTest::Test
   end
 
   def test_sorts_one_single_digit_and_one_empty_array
-    skip
     example = Merge.new
     assert_equal [1], example.merge_assorted_arrays([1], [])
   end
